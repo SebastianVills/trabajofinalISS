@@ -38,3 +38,6 @@ DOCUMENTACION/REGISTRO DEL AVANCE CONTINUO DEL PROYECTO PARA EL TRABAJO DE MANER
 -Se utilizo estilos creados personalmente, al igual que con boostrap, ordenando lo que es el frontend y backend por separado.
 
 -Se finalizo con las correciones para los estilos de la navegacion de usuario para la sesion activada o la sesion no activada, el rediccionamiento hacia la aplicacion de lista de tareas, creacion de lo estilos de la tabla , y los botones de editar y eliminar , actualizar e insertar en la lista de tareas.
+
+
+-Se añadio  para mostrar los datos por cada usuario logeado falta los estilos, tambien se añadio botones

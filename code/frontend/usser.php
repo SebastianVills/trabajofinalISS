@@ -1,6 +1,7 @@
 <?php
 
 session_start();
+include("../php/connection.php");
 
 ?>
 
@@ -33,5 +34,43 @@ session_start();
             </div>
         </div>
     </main>
+
+    <!-- AÑADIMOS LA FUNCION EN EL CUAL PERMITA VER LA INFORMACION DEL USUARIO UNA VEZ LOGEADO 26/12/22 -->
+    <div class="perfil">
+        <h1 class="aunsente">Información del perfil</h1>
+        <div>
+            <table class="tableStyle">
+                <?php
+                    $cliente = $_SESSION['cliente'];
+                    $data = mysqli_query($connection,"select * from users where usser = '$cliente'");
+
+                        while ($consulta = mysqli_fetch_array($data)) {
+                ?>
+
+                    <tr>
+                        <th>Usuario:</th>
+                        <td><?php echo $consulta['usser']; ?></td>
+                    </tr>
+                    <tr>
+                        <th>Correo:</th>
+                        <td><?php echo $consulta['email']; ?></td>
+                    </tr>
+                    <tr>
+                        <th>Telefono:</th>
+                        <td><?php echo $consulta['number']; ?></td>
+                    </tr>
+                <?php
+                }
+                ?>
+            </table>
+        </div>
+
+        <div class="content_boton">
+            <input type="button" class="btnoqicjio" name="Mod" value="Modificar datos">
+            <input type="button" class="btnoqicjioaaaa" name="El" value="Eliminar Cuenta">
+        </div>
+    
+    </div>
+
 </body>
 </html>
