@@ -65,6 +65,7 @@ include("../php/connection.php");
             </table>
         </div>
 
+                <!-- botones para editar los datos individuales -->
         <div class="content_boton">
             <input type="button" class="btnoqicjio" name="Mod" value="Modificar datos">
             <input type="button" class="btnoqicjioaaaa" name="El" value="Eliminar Cuenta">
