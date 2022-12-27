@@ -20,7 +20,7 @@
                     <li><a href="home.php">Inicio</a></li>
                     <li><a href="access.php">Acceder</a></li>
                     <li><a href="register.php">Registrarse</a></li>
-                    <li><a href=""></a></li>
+                    <li><a href="nosostros.php"></a>Nosotros</li>
                 </ul>
             </div>
         </div>
