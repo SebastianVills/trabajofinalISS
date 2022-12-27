@@ -17,7 +17,7 @@
             include("../php/session.php");
         ?>
     </div>
-
+    
 	<!-- FORMULARIO-->
 
     <form action="../php/registration.php" method="POST" class="form" id="registro_for" autocomplete = "off">
