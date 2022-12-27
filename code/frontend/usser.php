@@ -1,6 +1,9 @@
 <?php
 
 session_start();
+include("code/php/connection.php");
+include ("code/php/no_ini.php");
+$cliente = $_SESSION['cliente'];
 
 ?>
 
@@ -20,7 +23,9 @@ session_start();
     <!-- ESTRUCTURA DEL ENCABEZADO -->
     <?php
             include("../php/session.php");
+            
     ?>
+
 
     <main>
         <div class="main-content">
